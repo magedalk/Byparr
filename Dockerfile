@@ -1,5 +1,5 @@
 # Ubuntu is required by playwright
-FROM ubuntu:latest AS base
+FROM ubuntu:22.04 AS base
 
 ARG GITHUB_BUILD=false \
     VERSION
